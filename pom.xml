@@ -12,7 +12,6 @@
   <url>http://maven.apache.org</url>
 
   <profiles>
-    <!-- Development Profile -->
     <profile>
       <id>dev</id>
       <properties>
@@ -24,7 +23,6 @@
       </activation>
     </profile>
 
-    <!-- Production Profile -->
     <profile>
       <id>prod</id>
       <properties>
@@ -52,6 +50,31 @@
       <artifactId>guava</artifactId>
       <version>${guava}</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.10.0</version> <!-- Переконайтесь, що це остання стабільна версія -->
+    <scope>test</scope>
+  </dependency>
+
+    <!-- Mockito для мокування -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>5.5.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit 5 Engine для запуску тестів -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.10.0</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
 
@@ -71,10 +94,10 @@
         </configuration>
       </plugin>
 
-      <plugin> <!-- подключения плагина-->
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <configuration> <!-- настройки плагина-->
+        <configuration>
           <source>8</source>
           <target>8</target>
         </configuration>

@@ -35,7 +35,5 @@ public class TestMaven
         {
             System.err.println("Unable to load properties file : " + "config.properties");
         }
-
-
     }
 }

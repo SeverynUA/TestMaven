@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdff00e8-285e-4ded-89a2-3473784811db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/TestMaven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/AppTest.java" afterDir="false" />
+    <list default="true" id="bdff00e8-285e-4ded-89a2-3473784811db" name="Changes" comment="init project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/AreaSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Converter/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Converter/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Rectangle_formulas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Rhombus_formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Square_formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Triangle_formulas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/StringAnalyzer/StringAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/CurrencyConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/CurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/LengthConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/WeightConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Rectangle_formulasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Rhombus_formulaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Square_formulasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Triangle_formulasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/StringAnalyzer/StringAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/brainacad/org/TestMaven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/TestMaven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/brainacad/org/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +42,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SeverynUA"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SeverynUA/TestMaven.git",
+    "accountId": "480f7b1c-568a-4c0f-91f9-9bf645adbeed"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -45,14 +70,23 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.TestMaven.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.Rectangle_formulasTest.executor": "Run",
+    "JUnit.Rhombus_formulaTest.executor": "Run",
+    "JUnit.Triangle_formulasTest.executor": "Run",
+    "JUnit.WeightConverterTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.untitled123 [clean].executor": "Run",
     "Maven.untitled123 [install].executor": "Run",
     "Maven.untitled123 [package].executor": "Run",
+    "Maven.untitled123 [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,6 +103,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733713740048</updated>
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <option name="closed" value="true" />
+      <created>1734306573027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734306573027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
   </component>
 </project>
