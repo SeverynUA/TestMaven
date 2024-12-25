@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdff00e8-285e-4ded-89a2-3473784811db" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/AreaSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Converter/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Converter/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Rectangle_formulas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Rhombus_formula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Square_formula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/Formulas/Triangle_formulas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/Models/StringAnalyzer/StringAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/CurrencyConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/CurrencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/LengthConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Converter/WeightConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Rectangle_formulasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Rhombus_formulaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Square_formulasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/Figuras_Formulas/Triangle_formulasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/StringAnalyzer/StringAnalyzerTest.java" afterDir="false" />
+    <list default="true" id="bdff00e8-285e-4ded-89a2-3473784811db" name="Changes" comment="HM Junit tests виконано">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init-db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/TestDb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/brainacad/org/TestMaven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/TestMaven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/brainacad/org/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/brainacad/org/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/brainacad/org/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/brainacad/org/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/brainacad/org/AreaSearch.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SeverynUA"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SeverynUA&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SeverynUA/TestMaven.git",
-    "accountId": "480f7b1c-568a-4c0f-91f9-9bf645adbeed"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SeverynUA/TestMaven.git&quot;,
+    &quot;accountId&quot;: &quot;480f7b1c-568a-4c0f-91f9-9bf645adbeed&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -69,7 +60,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.TestDb.executor": "Run",
     "Application.TestMaven.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "JUnit.AppTest.executor": "Run",
     "JUnit.Rectangle_formulasTest.executor": "Run",
     "JUnit.Rhombus_formulaTest.executor": "Run",
@@ -81,18 +74,63 @@
     "Maven.untitled123 [package].executor": "Run",
     "Maven.untitled123 [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\coolm\IdeaProjects\untitled123" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="brainacad.org" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,6 +140,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733713740048</updated>
+      <workItem from="1735010370052" duration="2986000" />
+      <workItem from="1735066149200" duration="7635000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -111,11 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734306573027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HM Junit tests виконано">
+      <option name="closed" value="true" />
+      <created>1734443022949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734443022949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="HM Junit tests виконано" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM Junit tests виконано" />
   </component>
 </project>
